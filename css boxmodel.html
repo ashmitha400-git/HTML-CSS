@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>css box model</title>
+    <style>
+        .box{
+            width:300px;
+            height:300px;
+            padding:20px;
+            border:5px solid hsl(100,100%,50% ); 
+            margin:15px;
+            box-sizing:border-box;
+            outline:3px dashed blue;
+            overflow:scroll;
+         }
+         .model{
+            width:20px;
+            height:50px;
+            padding:35px;
+            border:15px dashed hsl(0,100%,50%);
+            margin:30px;
+            box-sizing:border-box;
+            outline: 5px dotted rgba(245, 10, 10, 0.5);
+            overflow:visible;
+         }
+         .new{
+            width:100px;
+            height:20px;
+            padding:30px;
+            border:20px solid hsl(180,100%,50%);
+            margin:10px;
+            box-sizing:content-box;
+            outline:5px solid salmon;
+            overflow:auto;
+         }
+         .par{
+            width:100px;
+            padding:30px;
+            border:10px solid red;
+            margin:20px;
+            outline:3px dashed hsl(180,100%,50%);
+            
+         }
+
+    </style>
+</head>
+<body>
+    <div class="box"; width:10px; height:10px> i am writing box model .i am writing html code eith extension html<div class="par">i am writing html code</div> </div><div class="model"> i am using css code</div><div class="new">i will complete it.i am using css properties to write the html code</div>
+</body>
+</html>
