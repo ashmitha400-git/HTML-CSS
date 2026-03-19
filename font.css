@@ -1,0 +1,46 @@
+h1{
+    font-family: Arial;
+    font-size: 36px;
+    text-align:left ;
+    text-decoration:overline ;
+    font-family: roboto;
+
+
+}
+h2{
+    font-family:sans-serif;
+    text-align:right;
+    line-height: 1,1.5,2;
+    letter-spacing: 5px;
+    
+}
+h3{
+    font-family: sans;
+    text-align:center;
+   @font-face {
+        font-family:"my font";
+        src: url("my font.ttf");
+    }
+}
+h4{
+    text-align:justify ;
+}
+p{
+    font-family: Georgia;
+    font-size: 18px ;
+}
+.light{
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.normal{
+    font-weight: 700;
+    text-transform: lowercase;
+    text-decoration: line-through;
+}
+.bold{
+    font-weight: 400;
+    text-transform: capitalize;
+    text-decoration: none;
+}
