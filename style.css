@@ -1,0 +1,31 @@
+.menu{
+    color:aquamarine;
+    
+}
+.menu a{
+    text-decoration:wavy;
+    font-size:100px;
+    padding:30px  40px;
+    text-shadow:2px 2px 4px rgb(20, 20, 16);
+    
+
+}
+.menu li{
+    display: inline-block;
+    
+}
+div{
+    border:2px dotted black;
+    border: radius 300px;
+    background:radial-gradient(
+        hsl(60, 2%, 39%),
+        hsl(180,100%,50%),
+        hsl(300,100%,50%)
+    );
+        
+    
+}
+.active{
+color:blueviolet;
+}
+
